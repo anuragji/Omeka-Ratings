@@ -1,0 +1,11 @@
+Ratings Plugin
+-------------------------------------
+2013 - 2015 by The Digital Ark, Corp.
+
+0.5 -   Make sortable by adding AVG rating as an Element Set associated with each item
+        Bug Fixes
+
+0.3 -   Integrate ratings with favorites lists
+        Numerous bug fixes
+
+0.1 -   Initial development
