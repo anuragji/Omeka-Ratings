@@ -21,7 +21,7 @@ class RatingsPlugin extends Omeka_Plugin_AbstractPlugin
         'upgrade',
         'define_acl',
         'public_head',
-        'after_delete_record',
+        'after_delete_item',
         'public_display_ratings',
         'public_items_browse_each',
         'public_ratings_show_with_favorites',
@@ -159,7 +159,7 @@ class RatingsPlugin extends Omeka_Plugin_AbstractPlugin
      *
      * @param $args
      */
-    public function hookAfterDeleteRecord($args)
+    public function hookAfterDeleteItem($args)
     {
         $db = get_db();
 
